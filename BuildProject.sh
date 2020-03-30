@@ -21,6 +21,8 @@ echo "RUN git clone https://github.com/poldracklab/pydeface.git \
 #Copy over my local files into the container
 echo "COPY DCM2BIDS /usr/" >> Dockerfile
 echo "ENV PATH /opt/miniconda-latest/envs/neuro/bin:\$PATH" >> Dockerfile
+echo "ENV HOME=/home" >> Dockerfile
+echo "COPY .afnirc /home" >> Dockerfile
 echo "RUN echo \"AFNI_NIFTI_TYPE_WARN = NO\" >> ~/.afnirc" >> Dockerfile
 #Set it to the 
 echo "ENTRYPOINT [\"python\",\"-u\",\"/usr/DCM2BIDS.py\"]" >> Dockerfile
