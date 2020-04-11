@@ -4,6 +4,7 @@ import ConfigReader as cr
 import logging
 import argparse
 import shutil
+import setup
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--configFile', '-c', help='The .ini which describes how to translate the dicoms')
@@ -25,7 +26,7 @@ if not os.path.exists(configFile):
     print('ConfigFile Does Not exist' + configFile + ' please check')
     exit()
 
-
+setup.setup_environment()
 #Get the Subject and session Name
 subject_name = cr.get_subject(configFile)
 session_name = cr.get_session(configFile)
