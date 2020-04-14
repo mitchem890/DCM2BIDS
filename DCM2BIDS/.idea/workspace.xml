@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdac1419-ff1d-47cf-b2c4-bf5011171b42" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AfniAnalysis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfniAnalysis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AfniAnalysis/BuildProject.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfniAnalysis/BuildProject.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AfniAnalysis/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfniAnalysis/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AfniAnalysis/analysis/classes/TaskGLMs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../AfniAnalysis/analysis/classes/TaskGLMs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BuildProject.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../BuildProject.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Dockerfile" afterDir="false" />
     </list>
@@ -60,13 +54,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AfniAnalysis/analysis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AfniAnalysis/analysis/run.py" />
     <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -219,9 +212,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="782" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585580686713">
-      <screen x="79" y="27" width="1841" height="1053" />
+    <state x="782" y="290" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586801210363">
+      <screen x="79" y="0" width="1841" height="1080" />
     </state>
+    <state x="782" y="290" key="FileChooserDialogImpl/0.1080.1920.1080/79.0.1841.1080@79.0.1841.1080" timestamp="1586801210363" />
     <state x="782" y="310" width="424" height="484" key="FileChooserDialogImpl/79.27.1841.1053@79.27.1841.1053" timestamp="1585580686713" />
     <state x="655" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1585580619672">
       <screen x="79" y="27" width="1841" height="1053" />
